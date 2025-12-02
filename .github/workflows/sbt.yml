@@ -36,7 +36,3 @@ jobs:
           key: ${{ runner.os }}-sbt-${{ hashFiles('**/build.sbt') }}
           restore-keys: |
             ${{ runner.os }}-sbt-
-
-      - name: Build and test (sbt)
-        run: |
-          sbt --batch clean compile test

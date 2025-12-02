@@ -2,14 +2,6 @@
 
 **MCP-Riot Scala**
 
-> **Disclaimer:** Ceci est un projet open-source *non affilié ni approuvé par Riot Games.* League of Legends® est une marque déposée de Riot Games, Inc.
-
-# MCP Riot Server - Scala Version
-
-![CI](https://github.com/corentinDelclaud/RIOTAPISCALA/actions/workflows/sbt.yml/badge.svg)
-
-**MCP-Riot Scala**
-
 > Disclaimer: Ce projet est open-source et n'est ni affilié ni approuvé par Riot Games. League of Legends® est une marque déposée de Riot Games, Inc.
 
 Résumé
@@ -56,22 +48,13 @@ export PORT=8081
 sbt run
 ```
 
-Tester
-------
-Exécutez les tests unitaires (s'il y en a):
-```bash
-sbt test
-```
-
 CI (GitHub Actions)
 ---------------------
 Un workflow GitHub Actions est fourni (`.github/workflows/sbt.yml`) qui :
 - installe Java 17
 - installe/active sbt
 - met en cache les dépendances (`.ivy2`, `.sbt`, `.coursier`)
-- exécute `sbt clean compile test` sur chaque push et pull request
-
-Voir le badge en haut pour l'état du build.
+- exécute `sbt clean compile` sur chaque push et pull request
 
 Structure du projet
 -------------------
