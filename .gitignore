@@ -1,0 +1,26 @@
+# Scala & SBT
+*.class
+*.log
+target/
+project/target/
+project/project/
+.bsp/
+.bloop/
+.metals/
+.vscode/
+metals.sbt
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
