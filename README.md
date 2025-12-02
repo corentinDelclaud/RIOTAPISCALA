@@ -31,6 +31,7 @@ Prérequis
 Configuration
 -------------
 Le projet attend une clé d'API Riot et éventuellement un port. Vous pouvez définir ces valeurs via un fichier `.env` ou des variables d'environnement.
+pour la clé aller sur : https://developer.riotgames.com
 
 Exemple `.env` (à créer à la racine):
 ```
@@ -42,7 +43,6 @@ Démarrage local
 ---------------
 Ouvrez une console puis:
 ```powershell
-A la racine de ce projet
 # Compiler
 sbt compile
 # Lancer le serveur
