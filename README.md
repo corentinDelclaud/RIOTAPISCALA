@@ -2,14 +2,6 @@
 
 **MCP-Riot Scala**
 
-> **Disclaimer:** Ceci est un projet open-source *non affilié ni approuvé par Riot Games.* League of Legends® est une marque déposée de Riot Games, Inc.
-
-# MCP Riot Server - Scala Version
-
-![CI](https://github.com/corentinDelclaud/RIOTAPISCALA/actions/workflows/sbt.yml/badge.svg)
-
-**MCP-Riot Scala**
-
 > Disclaimer: Ce projet est open-source et n'est ni affilié ni approuvé par Riot Games. League of Legends® est une marque déposée de Riot Games, Inc.
 
 Résumé
